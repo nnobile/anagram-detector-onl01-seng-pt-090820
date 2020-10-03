@@ -6,7 +6,6 @@
 class Anagram
   attr_accessor :word # whenever there is an argument for a class, throw it into an attr_accessor
                       # with classes this attr_accessor is how you take input
-
   def initialize(word)
     @word = word
   end
