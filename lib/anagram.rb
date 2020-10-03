@@ -11,7 +11,7 @@ class Anagram
   end
 
   def match(string)
-    string.select do |w| # w represents a word, and each doesn't allow us t cvhsange these objects
+    string.select do |w| # w represents a word. each doesn't allow us to change these objects, so use 'select'
       w.split("").sort == word.split("").sort # you need to split the word into letters, then you need to sort them alphabetically
     end
   end
